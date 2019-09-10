@@ -1,8 +1,11 @@
-
 $(window).scroll(function() {
-    var height = $(window).scrollTop();
-
-    if(height  > 700) {
-        console.log("Hello Wrld");
+    var hT = $('#scroll-to').offset().top,
+        hH = $('#scroll-to').outerHeight(),
+        wH = $(window).height(),
+        wS = $(this).scrollTop();
+    if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
+       console.log("Yes!");
+    } else {
+        console.log("No!");
     }
-});
+ });
