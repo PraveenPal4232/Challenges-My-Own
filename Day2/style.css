@@ -1,0 +1,23 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  .container{
+    background-color:#ccc;
+  }
+  .space{
+    background-color:#ababab;
+    height:100vh;
+  }
+  #c1,
+  #c2,
+  #c3{
+    padding:100px 0;
+  }
