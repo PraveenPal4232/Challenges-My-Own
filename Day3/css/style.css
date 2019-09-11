@@ -15,32 +15,38 @@
     width: 300vw;
     height: 300vh;
     background-color: azure;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+.ib-main div{
+    width: 100vw;
+    height: 100vh;
 }
 
 #box1{
     background-color: bisque;
 }
 #box2{
-    background-color: bisque;
+    background-color: chocolate;
 }
 #box3{
-    background-color: bisque;
+    background-color: blueviolet;
 }
 #box4{
-    background-color: bisque;
+    background-color: cadetblue;
 }
-#bo5{
-    background-color: bisque;
+#box5{
+    background-color: cyan;
 }
 #box6{
-    background-color: bisque;
+    background-color: darkorchid;
 }
 #box7{
-    background-color: bisque;
+    background-color: dimgray;
 }
 #box8{
-    background-color: bisque;
+    background-color: fuchsia;
 }
 #box9{
-    background-color: bisque;
+    background-color: lightsalmon;
 }
