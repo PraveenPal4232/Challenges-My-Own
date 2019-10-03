@@ -3,14 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
-#img{
-    height: 100px;
-    width:100px;
-    align-self: center;
+input{
+    display: block;
 }
