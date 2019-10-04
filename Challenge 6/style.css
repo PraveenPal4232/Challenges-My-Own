@@ -14,4 +14,5 @@ button{
     max-width: 500px;
     margin: auto;
     padding: 1em 0;
+    display: none;
 }

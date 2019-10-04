@@ -9,6 +9,7 @@ else{
     console.log("f");
 }
 
+document.getElementById("lavel1").style.display = "block";
 document.getElementById("btn1").addEventListener("click", myfunction1);
 function myfunction1(){
     document.getElementById("lavel1").style.display = "none";
