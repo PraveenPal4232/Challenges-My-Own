@@ -7,6 +7,11 @@ input{
     display: block !important;
     width: 100% !important;
 }
-.btn{
-    display: block !important;
+button{
+    margin: 1em 0;
+}
+#lavel1{
+    max-width: 500px;
+    margin: auto;
+    padding: 100px 0;
 }
