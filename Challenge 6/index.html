@@ -16,18 +16,53 @@
     <div class="container">
 
 <div id="lavel1">
-    <form class="form-inline" action="/action_page.php">
-      <label for="email">Email address:</label>
-      <input type="email" class="form-control" id="email">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd">
-      <div class="form-check">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox"> Remember me
-        </label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+  <form action="contact/contact-process1.php" method="post">
+    <div class="reservation-page-input-box">
+        <label>Your name</label>
+        <input type="text" class="form-control" placeholder="Full name" name="name" id="form-name" data-error="Subject field is required" required="">
+    </div>
+    <div class="reservation-page-input-box">
+        <label>Company Name</label>
+        <input type="text" class="form-control rt-date" placeholder="Company Name" name="company" id="company-name1" data-error="Company Name field is required" required="">
+    </div>
+    <div class="reservation-page-input-box">
+        <label>Address</label>
+        <input type="text" class="form-control rt-date" placeholder="Address" name="address" id="company-address1" data-error="Address field is required" required="">
+    </div>
+    <div class="reservation-page-input-box">
+        <label>Phone number</label>
+        <input type="text" class="form-control" placeholder="Phone number" name="phone" id="form-phone" data-error="Phone number field is required" required="">
+    </div>
+
+    <div class="reservation-page-input-box">
+        <label>Your email</label>
+        <input type="email" class="form-control" placeholder="Enter your email" name="email" id="form-email" data-error="Subject field is required" required="">
+    </div>
+
+    <div class="reservation-page-input-box">
+        <label>Subjects</label>
+        <input type="text" class="form-control rt-date" placeholder="Subjects" name="subject" id="form-subjects" data-error="Subject field is required" required="">
+    </div>
+
+    <div class="reservation-page-textarea">
+        <label>Message</label>
+        <textarea class="form-control your-message" placeholder="Your message" name="message" id="form-message" required=""></textarea>
+    </div>
+
+    <div class="g-recaptcha" data-sitekey="6Lf6BqoUAAAAAGxGUW9hmQYtc25_x74EwKhohXel">
+        <div style="width: 304px; height: 78px;">
+            <div>
+                <iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lf6BqoUAAAAAGxGUW9hmQYtc25_x74EwKhohXel&amp;co=aHR0cDovL2Rkd29ya3MuY286ODA.&amp;hl=en-GB&amp;v=Zy-zVXWdnDW6AUZkKlojAKGe&amp;size=normal&amp;cb=60rv8lbk509z" width="304" height="78" role="presentation" name="a-oajes2oo0zfr" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+        </div>
+    </div>
+
+    <div class="reservation-page-input-box submit1">
+        <button type="submit" class="book-now-btn">SUBMIT</button>
+    </div>
+
+</form>
 </div>
 
     </div>

@@ -7,6 +7,6 @@ input{
     display: block !important;
     width: 100% !important;
 }
-button{
+.btn{
     display: block !important;
 }
