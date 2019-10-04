@@ -10,7 +10,7 @@ input{
 button{
     margin: 1em 0;
 }
-#lavel1{
+.screen{
     max-width: 500px;
     margin: auto;
     padding: 1em 0;
