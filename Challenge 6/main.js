@@ -8,3 +8,8 @@ if(x.includes("p")){
 else{
     console.log("f");
 }
+
+document.getElementById("btn1").addEventListener("click", myfunction1);
+function myfunction1(){
+    
+}
