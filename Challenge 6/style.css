@@ -4,6 +4,6 @@
     box-sizing: border-box;
 }
 input{
-    display: block;
+    display: block !important;
     width: 100%;
 }
