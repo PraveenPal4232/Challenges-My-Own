@@ -11,6 +11,11 @@ else{
 
 document.getElementById("lavel1").style.display = "block";
 document.getElementById("btn1").addEventListener("click", myfunction1);
+
 function myfunction1(){
+    if(){
+        
+    }
     document.getElementById("lavel1").style.display = "none";
+    document.getElementById("lavel2").style.display = "block";
 }
