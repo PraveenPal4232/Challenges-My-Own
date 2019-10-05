@@ -39,3 +39,25 @@ function mail_mix1(){
         document.getElementById("lavel2").style.display = "block";
     }
 }
+
+function myfunction2(){
+    for (i=0; i<ff2.length; i++){
+        if(ff2[i] .value !== ""){
+            if(i == ff2.length-1){
+                mail_mix2();
+            }
+        }
+        else{
+            console.log("Sorry Man");
+        }
+    } 
+    }
+    
+    function mail_mix2(){
+        var mail2 = ff2[3].value;
+        var maill2 = mail2.split("");
+        if (maill2.includes("@") == true){
+            document.getElementById("lavel2").style.display = "none";
+            document.getElementById("lavel3").style.display = "block";
+        }
+    }
