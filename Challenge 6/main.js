@@ -18,11 +18,13 @@ function myfunction1(){
 
 for (i=0; i<ff1.length; i++){
     if(ff1[0] .value !== ""){
-
+        if(i == ff1.length-1){
+            document.getElementById("lavel1").style.display = "none";
+            document.getElementById("lavel2").style.display = "block";
+        }
     }
-}
-    
-        document.getElementById("lavel1").style.display = "none";
-        document.getElementById("lavel2").style.display = "block";
-    
+    else{
+        console.log("Sorry Man");
+    }
+} 
 }
