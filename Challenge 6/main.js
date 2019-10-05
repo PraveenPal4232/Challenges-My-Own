@@ -12,6 +12,7 @@ else{
 document.getElementById("lavel1").style.display = "block";
 document.getElementById("btn1").addEventListener("click", myfunction1);
 document.getElementById("btn2").addEventListener("click", myfunction2);
+document.getElementById("btn3").addEventListener("click", myfunction3);
 
 var ff1 = document.getElementsByClassName("f1");
 
