@@ -22,7 +22,7 @@ function myfunction1(){
 for (i=0; i<ff1.length; i++){
     if(ff1[i] .value !== ""){
         if(i == ff1.length-1){
-            mail_mix();
+            mail_mix1();
         }
     }
     else{
@@ -31,7 +31,7 @@ for (i=0; i<ff1.length; i++){
 } 
 }
 
-function mail_mix(){
+function mail_mix1(){
     var mail1 = ff1[3].value;
     var maill1 = mail1.split("");
     if (maill1.includes("@") == true){
