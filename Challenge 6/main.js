@@ -18,9 +18,8 @@ function myfunction1(){
 
 for (i=0; i<ff1.length; i++){
     if(ff1[i] .value !== ""){
-        if(i == ff1.length-1 || ff1[3].){
-            document.getElementById("lavel1").style.display = "none";
-            document.getElementById("lavel2").style.display = "block";
+        if(i == ff1.length-1){
+            mail_mix();
         }
     }
     else{
@@ -28,3 +27,5 @@ for (i=0; i<ff1.length; i++){
     }
 } 
 }
+
+fun
