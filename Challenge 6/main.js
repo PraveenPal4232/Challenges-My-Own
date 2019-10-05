@@ -28,4 +28,9 @@ for (i=0; i<ff1.length; i++){
 } 
 }
 
-fun
+function mail_mix(){
+    var mail1 = ff1[3].value;
+    var maill1 = mil1.split("");
+    document.getElementById("lavel1").style.display = "none";
+    document.getElementById("lavel2").style.display = "block";
+}
