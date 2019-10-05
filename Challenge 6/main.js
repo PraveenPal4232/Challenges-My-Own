@@ -66,7 +66,7 @@ function myfunction2(){
         for (i=0; i<ff3.length; i++){
             if(ff3[i] .value !== ""){
                 if(i == ff3.length-1){
-                    mail_mix2();
+                    mail_mix3();
                 }
             }
             else{
