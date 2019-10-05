@@ -61,3 +61,25 @@ function myfunction2(){
             document.getElementById("lavel3").style.display = "block";
         }
     }
+
+    function myfunction3(){
+        for (i=0; i<ff3.length; i++){
+            if(ff3[i] .value !== ""){
+                if(i == ff3.length-1){
+                    mail_mix2();
+                }
+            }
+            else{
+                console.log("Sorry Man");
+            }
+        } 
+        }
+        
+        function mail_mix3(){
+            var mail3 = ff3[3].value;
+            var maill3 = mail3.split("");
+            if (maill3.includes("@") == true){
+                document.getElementById("lavel4").style.display = "none";
+                document.getElementById("lavel3").style.display = "block";
+            }
+        }
