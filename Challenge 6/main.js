@@ -15,8 +15,8 @@ document.getElementById("btn2").addEventListener("click", myfunction2);
 document.getElementById("btn3").addEventListener("click", myfunction3);
 
 var ff1 = document.getElementsByClassName("f1");
-var ff1 = document.getElementsByClassName("f1");
-var ff1 = document.getElementsByClassName("f1");
+var ff2 = document.getElementsByClassName("f2");
+var ff3 = document.getElementsByClassName("f3");
 
 function myfunction1(){
 for (i=0; i<ff1.length; i++){
