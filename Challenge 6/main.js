@@ -31,6 +31,8 @@ for (i=0; i<ff1.length; i++){
 function mail_mix(){
     var mail1 = ff1[3].value;
     var maill1 = mil1.split("");
-    document.getElementById("lavel1").style.display = "none";
-    document.getElementById("lavel2").style.display = "block";
+    if (fruits.includes("Mango") == true){
+        document.getElementById("lavel1").style.display = "none";
+        document.getElementById("lavel2").style.display = "block";
+    }
 }
