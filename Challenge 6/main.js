@@ -15,7 +15,6 @@ document.getElementById("btn1").addEventListener("click", myfunction1);
 var ff1 = document.getElementsByClassName("f1");
 
 function myfunction1(){
-
 for (i=0; i<ff1.length; i++){
     if(ff1[i] .value !== ""){
         if(i == ff1.length-1){
